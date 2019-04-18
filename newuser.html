@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>newuser</title>
+<link rel="stylesheet" href="midterm.css">
+</head>
+
+<body>
+
+<header>
+		<p>
+		<a href="homepage.html">Home</a>
+		<a href="signin.html">Account</a> 
+		<a href="gallery.html">Gallery</a>
+		<a href="album.html">Album</a> 
+		<a href="video.html">Video</a>
+		<input type="search" name="search" id="search">
+	</p>
+</header>
+<section>
+	<h1 class="accountwelcome">create your ID!</h1>
+	<br>
+</section>
+<form>
+		<input type="text" placeholder="Your email" name="email-address" id="email"> 
+		<input type="text" list="emailserver" name="emailserver" id="emailsuggest">
+		<datalist id="emailserver">
+			<option>@qq.com</option>
+			<option>@163.com</option>
+			<option>@gmail.com</option>
+			<option>@aliyun.com</option>
+			<option>@yahoo.com</option>
+			<option>outlook.com</option>
+		</datalist>
+		<br>
+		<br>
+		<label id="new-password">New Password:</label><br>
+		<input type="text" placeholder="Password" name="password" id="newpass">
+		<br>
+		<br>
+		<label id="birthday">Birthday:</label><br>
+		<input type="date" id="data-form">
+		<br>
+		<input type="submit" id="create" value="CREATE!">
+		<input type="reset" id="reset" value="RESET">
+</form>
+<footer>
+<br>
+<br>
+	<hr>
+	<p class="footer">Copyright&copy 2018-2019 Vaporwave Soul.<br>All rights reserved. All trademarks are either owned or licensed by Vaporwave Soul.</p>	
+</footer>
+</body>
+</html>

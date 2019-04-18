@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+		background-color: #2D2D2D
+	}
+	a{
+		color:#DEDDE4; font-family: 'Raleway',sans-serif; font-size: 13px; font-weight: 800; line-height: 24px; margin: 0 10 0 10px;
+}
+	#search{
+		margin-left: 1100px}
+	h1{
+		
+		color:#CA5CE5; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+	}
+	h2{
+		color:#7BC5E8; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 10 0 24px; 
+	}
+	
+	header{
+		color: #adb7bd; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 13px; line-height: 26px; text-indent: 10px; margin:10 2 24px; font-weight: 400;
+	}
+	.introduction{
+		 color:#DEDDE4; font-family: 'Raleway',sans-serif; font-size: 15px; font-weight: 800; line-height: 24px; margin: 0 0 24px; text-align:left;text-indent: 20px
+	}
+	
+	.footer{
+		 color: #adb7bd; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 13px; line-height: 26px; text-indent: 30px; margin: 50 0 20px; text-align: center;
+	}
+	
+	h5{
+		color:#C855EA; font-family: 'Raleway',sans-serif; font-size: 15px; font-weight: 800; line-height: 20px; margin: 0 0 24px; text-align:left; text-transform: uppercase;text-indent: 20px
+	}
+	
+	li{
+		color:#DEDDE4; font-family: 'Raleway',sans-serif; font-size: 15px; font-weight: 800; line-height: 24px; margin: 0 0 10px; text-align:left;text-indent: 20px
+	}
+	hr{
+		color: #B4B4B4
+	}
+blockquote{
+	color:#B7B7B7; font-family: 'Raleway',sans-serif; font-size: 15px; font-weight: 550; line-height: 24px; text-align:left; text-indent: 20px;
+}
+.accountwelcome{
+	color:#CA5CE5; font-family: 'Raleway',sans-serif; font-size: 35px; font-weight: 800; line-height: 50px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+.signinid{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 12px; font-weight: 800; line-height: 20px; text-align:left; text-indent: 10px; margin-left: 500px;
+}
+#username{
+	margin: 0 0 0 530px; height: 30px; width: 200px; 
+}
+
+.formheader{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 20px; font-weight: 800; line-height: 20px; text-align:left;text-indent: 10px; margin-left: 580px;
+}
+
+#password{
+	margin: 0 0 0 530px; height: 30px; width: 200px; 
+}
+
+#remember{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 16px; font-weight: 800; line-height: 20px; text-align:left;text-indent: 10px; margin-left: 530px;
+}
+#login{
+	margin-left: 530px; margin-top: 20px; height: 30px; width: 210px; background:#3C8EF1; color:#FCFCFC; font-family: "Raleway", sans-serif; font-size:16px; font-weight: 800;
+}
+#ifnotid{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 12px; font-weight: 800; line-height: 20px; text-align:left; text-indent: 10px; margin-left: 420px;
+}
+#email{
+	margin-left: 440px; height: 30px; width: 150px; 
+}
+#emailsuggest{
+	height: 30px; width: 150px; 
+}
+#newpass{
+	margin-left: 440px; margin-top: 10px; height: 30px; width: 200px;
+}
+#new-password{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 16px; font-weight: 800; line-height: 20px; text-align:left; margin-left: 440px; 
+}
+#birthday{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 16px; font-weight: 800; line-height: 20px; text-align:left; margin-left: 440px; margin-top: 30px;
+}
+#data-form{
+	height: 30px; width: 150px; margin-top: 10px; margin-left: 440px;
+}
+#create{
+	margin-left: 440px; margin-top: 25px; height: 30px; width: 165px; background:#3C8EF1; color:#FCFCFC; font-family: "Raleway", sans-serif; font-size:16px; font-weight: 800;
+}
+#reset{
+	margin-top: 25px; height: 30px; width: 165px; background:#3C8EF1; color:#FCFCFC; font-family: "Raleway", sans-serif; font-size:16px; font-weight: 800;
+}
+.img{
+	margin-left: 18px; margin-right: 18px; margin-bottom: 30px
+}
+#more-works{
+	margin-left: 440px; height: 40px; width: 350px; background: #883CE4; color:#AEAEAE; font-family: "Raleway", sans-serif; font-size:13px; font-weight: 800;
+}
+@media (max-width : 1270px ){
+}
+.table{
+	color:#A9A9A9; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 800; line-height: 20px; margin: 0 10 0 10px; 
+}
+#table-layout{
+	table-layout: auto; width: 80%;border-collapse: collapse; 
+}
+#albumcover{
+	margin-left: inherit;
+}
+#sunset{
+	margin-left: 310px; margin-bottom: 50px;
+}
+.sidenav {
+  width: 130px;
+  height: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 300px;
+  right: 0px;
+  background:#FFFFFF;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+caption{
+	color:#DBDBDB; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 24px; margin: 0 0 24px; text-align:left;
+}
+#best{
+	color:#E56DD4; font-family: 'Raleway',sans-serif; font-size: 33px; font-weight: 800; line-height: 24px; margin: 0 0 24px; text-align:left;
+}
